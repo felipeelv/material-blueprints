@@ -19,6 +19,7 @@ Centralizar o planejamento, a estrutura e as especificacoes dos conteudos antes 
 - Inclua data ou versao quando houver varias iteracoes.
 - Mantenha cada blueprint com objetivo, publico-alvo, topicos principais e status.
 - Separe rascunhos de arquivos prontos para revisao.
+- Atualize `CONTROLE_DE_CONTEUDOS.md` sempre que houver criacao, remocao, renomeacao ou alteracao relevante em `blueprints/`.
 
 ## Modelo de blueprint
 
