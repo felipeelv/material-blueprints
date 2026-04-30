@@ -1,6 +1,6 @@
 # Controle de Conteudos
 
-Ultima atualizacao: 2026-04-29 23:42 -03
+Ultima atualizacao: 2026-04-29 23:52 -03
 
 Este arquivo controla o estado dos blueprints do repositorio. Sempre que houver criacao, remocao, renomeacao ou alteracao relevante em `blueprints/`, este controle deve ser atualizado no mesmo commit.
 
@@ -17,9 +17,9 @@ Este arquivo controla o estado dos blueprints do repositorio. Sempre que houver 
 | Item | Quantidade |
 | --- | ---: |
 | Diretorios de unidade/bimestre | 622 |
-| Arquivos `blueprint_*.md` | 235 |
-| Arquivos `blueprint_unidade.md` | 63 |
-| Arquivos `blueprint_capitulo_*.md` | 172 |
+| Arquivos `blueprint_*.md` | 239 |
+| Arquivos `blueprint_unidade.md` | 64 |
+| Arquivos `blueprint_capitulo_*.md` | 175 |
 | Placeholders `.gitkeep` | 588 |
 
 ## Pendencias da Unidade 4
@@ -68,6 +68,14 @@ Unidades 4 ainda sem nenhum arquivo `blueprint_*.md`: 39.
 
 ## Atualizacoes Registradas
 
+- 2026-04-29: adicionada automacao local para verificar `origin/main` e executar pull quando houver alteracao em `blueprints/`:
+  - `scripts/auto_pull_blueprints.sh`
+  - `scripts/com.feliperosa.material-blueprints.auto-pull.plist`
+- 2026-04-29: pull de `origin/main` trouxe 4 blueprints para `blueprints/Portugues 1/4ano/unidade-5-classes-gramaticais`:
+  - `blueprint_unidade.md`
+  - `blueprint_capitulo_01_pronomes.md`
+  - `blueprint_capitulo_02_adverbios.md`
+  - `blueprint_capitulo_03_conjuncoes-basicas.md`
 - 2026-04-29: removidos placeholders duplicados da unidade 4:
   - `blueprints/Biologia/9ano/unidade-4-genetica-aplicada-bncc-ef09ci09/.gitkeep`
   - `blueprints/Ciencias/6ano/unidade-4-transformacoes-da-materia-bncc-ef06ci02-ef06ci04/.gitkeep`
