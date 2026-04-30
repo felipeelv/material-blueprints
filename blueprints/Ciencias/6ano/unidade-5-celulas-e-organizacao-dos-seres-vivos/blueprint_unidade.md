@@ -98,7 +98,7 @@
 A unidade está adequada se:
 - todos os 2 capítulos têm blueprint individual salvo no mesmo diretório deste arquivo;
 - nenhum arquivo foi salvo em `blueprints/`, `PIPELINE_CONTEUDO/PLANEJADOR/`, `teste_unidade-3-coordenadas-e-solo/` ou diretamente em `Blueprint/`;
-- todos os arquivos estão em `PRODUCAO/Blueprint/Ciencias/6ano/unidade-5-celulas-e-organizacao-dos-seres-vivos-bncc-ef06ci05-ef06ci06/`;
+- todos os arquivos estão em `blueprints/Ciencias/6ano/unidade-5-celulas-e-organizacao-dos-seres-vivos/`;
 - cada capítulo usa o personagem definido no framework, sem substituição;
 - cada capítulo preserva a pergunta-problema do framework ou formulação explicitamente derivada dele;
 - o capítulo 1 explica célula, membrana plasmática, citoplasma, núcleo e tipos celulares sem organelas detalhadas;
